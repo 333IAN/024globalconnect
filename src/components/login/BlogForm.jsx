@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Save, Eye, X, Plus, Tag, Calendar, User } from 'lucide-react';
+import bgImage from "../../assets/AATIFRONT/blogform_bg.jpg";
 
 const BlogForm = () => {
   const [formData, setFormData] = useState({
@@ -119,10 +120,10 @@ const BlogForm = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-6 bg-white">
+    <div className="max-w-4xl mx-auto p-6 bg-white" style={{backgroundImage:`url(${bgImage})`}}>
       <div className="mb-8">
-        <h1 className="text-3xl font-bold text-gray-900 mb-2">024GLOBALCONNECT Blog Site</h1>
-        <p className="text-gray-600">Fill in the details below to create your blog post</p>
+        <h1 className="text-3xl font-bold text-white mb-2">024GLOBALCONNECT Blog Site</h1>
+        <p className="text-white">Fill in the details below to create your blog post</p>
       </div>
 
       <div className="space-y-8">

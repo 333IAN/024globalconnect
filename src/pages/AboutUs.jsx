@@ -47,8 +47,8 @@ const AboutUs = () => {
       bio: 'Expert in marketing technology and data analytics'
     },
     {
-      name: '',
-      role: '',
+      name: 'Ian Isavwa',
+      role: 'IT Enthusiast',
       image: '',
       bio: 'Specialist in global partnership development'
     }

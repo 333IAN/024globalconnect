@@ -1,9 +1,10 @@
 import React from 'react';
 import { Mail, Lock } from 'lucide-react';
+import bgImage from "../../assets/AATIFRONT/login_bg.png";
 
 const LoginForm = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-100 to-white flex flex-col justify-center items-center px-4">
+    <div className="min-h-screen bg-gradient-to-br from-gray-100 to-white flex flex-col justify-center items-center px-4" style={{backgroundImage:`url(${bgImage})`}}>
       <div className="w-full max-w-md bg-white shadow-xl rounded-2xl p-8 space-y-6">
         <h2 className="text-3xl font-bold text-center text-gray-800">Welcome Back</h2>
         <p className="text-center text-gray-500">Sign in to your account</p>

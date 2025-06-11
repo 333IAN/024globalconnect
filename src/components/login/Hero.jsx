@@ -1,8 +1,9 @@
 import React from 'react';
+import bgImage from "../../assets/AATIFRONT/header_bg.jpg";
 
 const Hero = () => {
   return (
-    <section className="hero text-center bg-gradient-to-br from-blue-100 to-blue-200 pt-40 pb-24">
+    <section className="hero text-center bg-gradient-to-br from-blue-100 to-blue-200 pt-40 pb-24" style={{backgroundImage:`url(${bgImage})`}}>
       <div className="container mx-auto">
         <h1 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6">
           Empowering African Communities Through Digital Solutions

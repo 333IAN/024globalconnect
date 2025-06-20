@@ -10,6 +10,7 @@ import BlogForm from './components/login/BlogForm';
 import AffiliateSignup from './components/affiliate/AffiliateSignup'; // ✅ New import
 import AffiliateLogin from './components/affiliate/AffiliateLogin';
 import AffiliatePartner from './components/affiliate/AffiliatePartner';
+import Partner from './components/login/PartnershipForm';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
         <Route path="/affiliate-signup" element={<AffiliateSignup />} /> {/* ✅ New route */}
         <Route path="/affiliate-login" element={<AffiliateLogin />} />
         <Route path="/affiliate-partner" element={<AffiliatePartner/>}/>
+        <Route path="/partner-details" element={<Partner/>}/>
       </Routes>
     </div>
   );
